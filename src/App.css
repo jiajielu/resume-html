@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  -background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +34,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.main-col {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #bbeffd;
+  color: black;
+}
+
+.main-row {
+  height: 100vh;
+}
+
+.bg-dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background: rgb(204,204,204); 
+}
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
   }
 }
